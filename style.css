@@ -1,0 +1,27 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /*10px */
+}
+  
+body {
+    font-size: 1.6rem; /*16px*/
+}
+
+ul {
+    display: flex;
+    gap: 2.5rem;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    list-style: none;
+}
+
+#logo {
+    margin-right: auto;
+}
