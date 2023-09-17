@@ -14,12 +14,20 @@ body {
     font-size: 1.6rem; /*16px*/
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(74, 13, 85)    ;
+}
+
 ul {
     display: flex;
     gap: 2.5rem;
     font-size: 2rem;
     padding: 2rem 3rem;
     list-style: none;
+    color: rgb(19, 231, 19)
 }
 
 #logo {
